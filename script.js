@@ -55,7 +55,7 @@ if(teste == 1){
 }else if(teste == 2){
     character.style.display = "flex"
     display.src = "/assets/Cristopher_Cohen_em_Desconjura3Fo.png"
-    details.innerHTML = "Ele era um ator e dublê estadunidense, conhecido por seu trabalho em filmes de ação no exterior, até que se mudou para o Brasil e formou uma família. Cristopher era um dos melhores amigos de Arnaldo Fritz, um dos agentes mais renomados da Ordo Realitas. Por conta de Arnaldo, ele teve seu primeiro contato com a Ordem e o paranormal, mas evitou de entrar na organização para proteger a sua família. Em 2020, depois de inúmeras tentativas da Ordem convencê-lo a se juntar a eles, Cristopher aceita a proposta, sendo designado a uma equipe composta por Elizabeth Webber, Joui Jouki e dois conhecidos seus: Thiago Fritz, filho de Arnaldo, e Cesar Cohen, seu filho."
+    details.innerHTML = "Cristopher Cohen, nascido nos Estados Unidos, foi o primeiro dublê do ator Van Damme. Ele se mudou para o Brasil para trabalhar em um filme e se apaixonou pelo país. Depois de muitos anos, Cohen finalmente aceitou se unir à Ordem."
 }
 }
 function troca3(){
