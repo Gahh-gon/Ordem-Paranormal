@@ -184,7 +184,37 @@ margin-bottom: 7%;
 display: none;
 
 }
+.credito{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+}
+.credito img{
+    width: 50%;
+}
 
+.artista img{
+    border-radius: 50%;
+    width: 8em;
+}
+.artista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.credito .icon{
+    width: 20px;
+}
+.credito div {
+    display: flex;
+}
+.credito p{
+    text-align: center;
+}
 
 
 
