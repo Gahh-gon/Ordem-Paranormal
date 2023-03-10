@@ -14,45 +14,45 @@ var teste = 0;
 
 const thiagoFritz ={
     Name:"Thiago Fritz",
-    imgProfile:"/assets/thiago_fritz.jpg",
-    imgProfile2:"/assets/Thiago_Fritz_em_O_Segredo_na_Floresta.webp",
+    imgProfile:"./assets/thiago_fritz.jpg",
+    imgProfile2:"./assets/Thiago_Fritz_em_O_Segredo_na_Floresta.webp",
     description:"Thiago era um jornalista que após a suposta morte de seu pai, Arnaldo Fritz, decidiu investigar a causa de sua morte. Por essa investigação, ele descobriu a relação entre seu pai e a Ordo Realitas, se interessando a se juntar à organização. Era conhecido por sua lábia, carisma, habilidade interpessoal e contatos."
 }
 const danielHartmann = {
     Name:"Daniel Hartmann",
-    imgProfile:"/assets/Daniel_Hartmann.webp",
+    imgProfile:"./assets/Daniel_Hartmann.webp",
     description:"Ele costumava ser um escritor de contos macabros e relatos sobrenaturais de muito sucesso, porém, o que não sabia, era que o medo causado por suas obras enfraquecia a Membrana. Quando se envolveu em uma investigação da Ordem e foi confrontado pelo agente Tristan Monteiro, percebeu o que acidentalmente estava fazendo e decidiu trabalhar na organização para combater o paranormal e suas monstruosas criações."
 }
 const elizabethWebber = {
     Name:"Elizabeth Webber",
-    imgProfile:"/assets/Elizabeth Webber.jpg",
-    imgProfile2:"/assets/Elizabeth Webber_floresta.jpg",
+    imgProfile:"./assets/Elizabeth Webber.jpg",
+    imgProfile2:"./assets/Elizabeth Webber_floresta.jpg",
     description:"Ele costumava ser um escritor de contos macabros e relatos sobrenaturais de muito sucesso, porém, o que não sabia, era que o medo causado por suas obras enfraquecia a Membrana. Quando se envolveu em uma investigação da Ordem e foi confrontado pelo agente Tristan Monteiro, percebeu o que acidentalmente estava fazendo e decidiu trabalhar na organização para combater o paranormal e suas monstruosas criações."
 }
 const alexSanderKothe ={
     name:"alexSanderKothe",
-    imgProfile:"/assets/Alexsander_Kothe.webp",
+    imgProfile:"./assets/Alexsander_Kothe.webp",
     description:"Ele era um professor de história na Escola Nostradamus de Ensino Médio, que misteriosamente sumiu de seu local de trabalho, estando diretamente ligado com o caso sobrenatural que ocorreu no lugar."
 }
 const cristopherCohen ={
     Name:"Cristopher Cohen",
-    imgProfile:"/assets/Cristopher_Cohen_em_Desconjura3Fo.png",
+    imgProfile:"./assets/Cristopher_Cohen_em_Desconjura3Fo.png",
     description:"Cristopher Cohen, nascido nos Estados Unidos, foi o primeiro dublê do ator Van Damme. Ele se mudou para o Brasil para trabalhar em um filme e se apaixonou pelo país. Depois de muitos anos, Cohen finalmente aceitou se unir à Ordem."
 }
 const jouiJouki ={
     Name:"Joui Jouki",
-    imgProfile:"/assets/Joui_Jouki.png",
+    imgProfile:"./assets/Joui_Jouki.png",
     description:"Ele era um ginasta olímpico que, durante uma viagem para o Brasil junto de seus amigos, acabou sofrendo um ataque por uma criatura Paranormal, sendo salvo por Elizabeth Webber e Thiago Fritz. Os dois acabam virando seus mentores, e então Joui se junta à Ordo Realitas."
 
 }
 const Cezar ={
-    Name:"/assets/Cezar.jpg",
-    imgProfile:"/assets/Cezar.jpg",
+    Name:"./assets/Cezar.jpg",
+    imgProfile:"./assets/Cezar.jpg",
     description:"Cesar era um programador e hacker brasileiro, residente de São Paulo. Após se juntar à Ordo Realitas, é um dos membros designados ao Caso de Carpazinha. Seu pai, Cristopher, também se revela um membro da Ordem e o acompanha na missão."
 
 }
 const Arthur ={
-    imgProfile:"/assets/Arthur.jpg",
+    imgProfile:"./assets/Arthur.jpg",
     description: "Ele era um músico e membro da gangue de motoqueiros Gaudérios Abutres em Carpazinha, que se juntou a Ordo Realitas após perder seus colegas durante uma luta contra o Carniçal Preto da Morte. Após esse incidente, passou a fazer parte da Equipe E, grupo que investigava a manifestação"
 }
 
