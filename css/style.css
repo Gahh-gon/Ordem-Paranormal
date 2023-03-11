@@ -287,6 +287,106 @@ display: none;
 
   
     */
+
+    @media (max-width:414px) {
+        nav {
+           
+            justify-content: center;
+            gap: 25px;
+            
+        }
+        nav img{
+          
+          margin-top: 20px;
+            width: 6em;
+     
+            margin-left: 0px;
+           
+        }
+        nav a{
+            font-size: 17px;
+        }
+
+        .area_banner{
+            position: relative;
+            bottom: 1%;
+            width: 100%;
+            height: 100px;
+            background-color: rgb(0, 8, 8);
+            background-image: url("/assets/area_banner.jpg");
+            background-position: 0.1%;
+            background-size: contain;
+        }
+        .inform{
+            
+               gap: 6px;
+        }
+        .inform p{
+            font-size: 10px;
+        }
+        .foto_perfil img{
+            
+            width: 8em;
+        }
+        .inform   .paragrafo {
+            font-size: 10px;    
+            max-width: 200px;
+        }
+
+        .banner{
+            width: 100%;
+            height: 100px;
+            border-top: solid;
+            background-color: rgb(0, 8, 8);
+        }
+        .season img{
+            width: 45%;
+            -moz-transition: all 0.3s;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+
+        .character img{
+            width: 22%;
+            margin-left: 5%;
+        }
+        
+        .characters img{
+            width: 11%;
+            
+        }
+        .character{
+            display: none;
+            gap: 25px;
+            margin-bottom: 4%;
+         
+          
+        }
+        .character p {
+           
+            max-width: 400px;
+            font-size: 11px;
+         
+        }
+
+        .credito img{
+            width: 45%;
+        }
+        
+        .artista img{
+            width: 8em;
+
+        }
+        .artista{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 14px;
+            
+        }
+    }
     @media (max-width: 375px) {
         nav {
            
@@ -321,13 +421,13 @@ display: none;
                gap: 6px;
         }
         .inform p{
-            font-size: 12px;
+            font-size: 10px;
         }
         .foto_perfil img{
             
             width: 6em;
         }
-        .inform .paragrafo {
+        .inform   .paragrafo {
             text-indent: 0;
             font-size: 11px;    
             max-width: 300px;
@@ -357,15 +457,59 @@ display: none;
         }
         .character{
             display: none;
-            gap: 2em;
+            gap: 30px;
             margin-bottom: 4%;
          
           
         }
         .character p {
            
-            max-width: 375px;
-            font-size: 13px;
+            max-width: 220px;
+            font-size: 10px;
          
         }
+
+        .credito{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            text-align: center;
+    
+        }
+        .credito img{
+            width: 50%;
+        }
+        
+        .artista img{
+            border-radius: 50%;
+            width: 6em;
+
+        }
+        .artista{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 14px;
+            
+        }
+        .credito .icon{
+            width: 20px;
+        }
+        .credito div {
+            display: flex;
+        }
+        .credito p{
+            text-align: center;
+        }
+        .credito a{
+            text-decoration: none;
+            color: white;
+        }
+        .credito a:hover{
+            color: red;
+        }
+        
     }

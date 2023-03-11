@@ -27,7 +27,9 @@ const elizabethWebber = {
     Name:"Elizabeth Webber",
     imgProfile:"./assets/Elizabeth Webber.jpg",
     imgProfile2:"./assets/Elizabeth Webber_floresta.jpg",
-    description:"Ele costumava ser um escritor de contos macabros e relatos sobrenaturais de muito sucesso, porém, o que não sabia, era que o medo causado por suas obras enfraquecia a Membrana. Quando se envolveu em uma investigação da Ordem e foi confrontado pelo agente Tristan Monteiro, percebeu o que acidentalmente estava fazendo e decidiu trabalhar na organização para combater o paranormal e suas monstruosas criações."
+    description:"Elizabeth era uma médica e cientista forense, extremamente obstinada, inteligente e habilidosa, com uma obsessão por criar teorias e desvendar casos. Trabalhando com o seu parceiro detetive, Gustavo Dohmer, ajudou a resolver alguns casos para a Polícia Federal até que, finalmente, foi recrutada para a Ordo Realitas por Tristan Monteiro. "
+
+   
 }
 const alexSanderKothe ={
     name:"alexSanderKothe",
