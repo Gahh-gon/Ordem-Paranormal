@@ -155,6 +155,7 @@ margin-bottom: 7%;
     display: none;
     gap: 2em;
     margin-bottom: 4%;
+    justify-content: center;
  
   
 }
@@ -162,7 +163,15 @@ margin-bottom: 7%;
     width: 20%;
     margin-left: 5%;
 }
-.character p {
+
+
+.info_grup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10%;
+}
+.info_grup p {
     font-family: 'Ubuntu', sans-serif;
     display: flex;
     align-items: center;
@@ -170,6 +179,16 @@ margin-bottom: 7%;
     max-width: 400px;
     line-height: 1.2;
     word-spacing: 2px;
+}
+.edification{
+    display: flex;
+    
+    align-items: center;
+    gap: 5%;
+}
+.edification{
+    display: flex;
+    gap: 5%;
 }
 .characters{
     display: none;

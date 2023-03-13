@@ -10,21 +10,26 @@ const character = document.querySelector(".character")
 const characters = document.querySelector(".characters")
 const display = document.querySelector('.display')
 const details = document.querySelector('.details')
+const Name = document.querySelector(".name")
+const age = document.querySelector(".age")
 var teste = 0; 
 
 const thiagoFritz ={
     Name:"Thiago Fritz",
+    idade:33,
     imgProfile:"./assets/thiago_fritz.jpg",
     imgProfile2:"./assets/Thiago_Fritz_em_O_Segredo_na_Floresta.webp",
     description:"Thiago era um jornalista que após a suposta morte de seu pai, Arnaldo Fritz, decidiu investigar a causa de sua morte. Por essa investigação, ele descobriu a relação entre seu pai e a Ordo Realitas, se interessando a se juntar à organização. Era conhecido por sua lábia, carisma, habilidade interpessoal e contatos."
 }
 const danielHartmann = {
     Name:"Daniel Hartmann",
+    idade:28,
     imgProfile:"./assets/Daniel_Hartmann.webp",
     description:"Ele costumava ser um escritor de contos macabros e relatos sobrenaturais de muito sucesso, porém, o que não sabia, era que o medo causado por suas obras enfraquecia a Membrana. Quando se envolveu em uma investigação da Ordem e foi confrontado pelo agente Tristan Monteiro, percebeu o que acidentalmente estava fazendo e decidiu trabalhar na organização para combater o paranormal e suas monstruosas criações."
 }
 const elizabethWebber = {
     Name:"Elizabeth Webber",
+    idade: 28,
     imgProfile:"./assets/Elizabeth Webber.jpg",
     imgProfile2:"./assets/Elizabeth Webber_floresta.jpg",
     description:"Elizabeth era uma médica e cientista forense, extremamente obstinada, inteligente e habilidosa, com uma obsessão por criar teorias e desvendar casos. Trabalhando com o seu parceiro detetive, Gustavo Dohmer, ajudou a resolver alguns casos para a Polícia Federal até que, finalmente, foi recrutada para a Ordo Realitas por Tristan Monteiro. "
@@ -32,28 +37,34 @@ const elizabethWebber = {
    
 }
 const alexSanderKothe ={
-    name:"alexSanderKothe",
+    name:"alexSander Kothe",
+    idade:23,
     imgProfile:"./assets/Alexsander_Kothe.webp",
     description:"Ele era um professor de história na Escola Nostradamus de Ensino Médio, que misteriosamente sumiu de seu local de trabalho, estando diretamente ligado com o caso sobrenatural que ocorreu no lugar."
 }
 const cristopherCohen ={
     Name:"Cristopher Cohen",
+    idade:60,
     imgProfile:"./assets/Cristopher_Cohen_em_Desconjura3Fo.png",
     description:"Cristopher Cohen, nascido nos Estados Unidos, foi o primeiro dublê do ator Van Damme. Ele se mudou para o Brasil para trabalhar em um filme e se apaixonou pelo país. Depois de muitos anos, Cohen finalmente aceitou se unir à Ordem."
 }
 const jouiJouki ={
     Name:"Joui Jouki",
+    idade:23,
     imgProfile:"./assets/Joui_Jouki.png",
     description:"Ele era um ginasta olímpico que, durante uma viagem para o Brasil junto de seus amigos, acabou sofrendo um ataque por uma criatura Paranormal, sendo salvo por Elizabeth Webber e Thiago Fritz. Os dois acabam virando seus mentores, e então Joui se junta à Ordo Realitas."
 
 }
 const Cezar ={
-    Name:"./assets/Cezar.jpg",
+    Name:"Cesar Cohen",
+    idade:30,
     imgProfile:"./assets/Cezar.jpg",
     description:"Cesar era um programador e hacker brasileiro, residente de São Paulo. Após se juntar à Ordo Realitas, é um dos membros designados ao Caso de Carpazinha. Seu pai, Cristopher, também se revela um membro da Ordem e o acompanha na missão."
 
 }
 const Arthur ={
+    Name:"Arthur Cervero",
+    idade:27,
     imgProfile:"./assets/Arthur.jpg",
     description: "Ele era um músico e membro da gangue de motoqueiros Gaudérios Abutres em Carpazinha, que se juntou a Ordo Realitas após perder seus colegas durante uma luta contra o Carniçal Preto da Morte. Após esse incidente, passou a fazer parte da Equipe E, grupo que investigava a manifestação"
 }
@@ -75,10 +86,16 @@ function troca(){
         character.style.display = "flex"
         display.src = thiagoFritz.imgProfile
     details.innerHTML = thiagoFritz.description
+    Name.innerHTML = thiagoFritz.Name
+    age.innerHTML = thiagoFritz.idade
+
     }else if(teste == 2){
         character.style.display = "flex"
         display.src = thiagoFritz.imgProfile2
         details.innerHTML = thiagoFritz.description
+        Name.innerHTML = thiagoFritz.Name
+        age.innerHTML = thiagoFritz.idade
+    
     }
     
 }
@@ -87,10 +104,15 @@ if(teste == 1){
     character.style.display = "flex"
      display.src = danielHartmann.imgProfile
     details.innerHTML = danielHartmann.description
+    Name.innerHTML = danielHartmann.Name
+    age.innerHTML = danielHartmann.idade
+
 }else if(teste == 2){
     character.style.display = "flex"
     display.src = elizabethWebber.imgProfile2
     details.innerHTML = elizabethWebber.description
+    Name.innerHTML = elizabethWebber.Name
+    age.innerHTML = elizabethWebber.idade
 }
 
 }
@@ -99,10 +121,14 @@ if(teste == 1){
     character.style.display = "flex"
     display.src = alexSanderKothe.imgProfile
     details.innerHTML = alexSanderKothe.description
+    Name.innerHTML = alexSanderKothe.name
+    age.innerHTML = alexSanderKothe.idade
 }else if(teste == 2){
     character.style.display = "flex"
     display.src = cristopherCohen.imgProfile
     details.innerHTML = cristopherCohen.description
+    Name.innerHTML = cristopherCohen.Name
+    age.innerHTML = cristopherCohen.idade
 }
 }
 function troca3(){
@@ -110,10 +136,14 @@ if(teste == 1){
     character.style.display = "flex"
     display.src = elizabethWebber.imgProfile
     details.innerHTML = elizabethWebber.description
+    Name.innerHTML = elizabethWebber.Name
+    age.innerHTML = elizabethWebber.idade
 }else if (teste == 2){
     character.style.display = "flex"
     display.src = jouiJouki.imgProfile
     details.innerHTML = jouiJouki.description
+    Name.innerHTML = jouiJouki.Name
+    age.innerHTML = jouiJouki.idade
 }
     
 }
@@ -121,11 +151,15 @@ function troca4(){
     character.style.display = "flex"
     display.src = Cezar.imgProfile
     details.innerHTML = Cezar.description
+    Name.innerHTML = Cezar.Name
+    age.innerHTML = Cezar.idade
 }
 function troca5(){
     character.style.display = "flex"
     display.src = Arthur.imgProfile
     details.innerHTML = Arthur.description
+    Name.innerHTML = Arthur.Name
+    age.innerHTML = Arthur.idade
 }
 
 
