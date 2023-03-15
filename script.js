@@ -12,7 +12,8 @@ const display = document.querySelector('.display')
 const details = document.querySelector('.details')
 const Name = document.querySelector(".name")
 const age = document.querySelector(".age")
-var teste = 0; 
+let temporada = 0; 
+
 
 const thiagoFritz ={
     Name:"Thiago Fritz",
@@ -81,15 +82,55 @@ temp2.addEventListener("click", temporada2)
  playerOrdem5.addEventListener('click', troca5)
 
 
+ function temporada1 () {
+    temporada = 1;
+    if(character.style.display === "flex"){
+        character.style.display = "none"
+    }
+    characters.style.display = "flex"
+    display.src = "/assets/icone_character.png"
+    details.innerHTML = "..."
+    playerOrdem.src = thiagoFritz.imgProfile
+    playerOrdem1.src= danielHartmann.imgProfile
+    playerOrdem2.src= alexSanderKothe.imgProfile
+    playerOrdem3.src= elizabethWebber.imgProfile
+    playerOrdem4.style.display = "none"
+   playerOrdem5.style.display = "none"
+  
+
+        
+
+}
+
+function temporada2 () {
+    temporada = 2
+    if(character.style.display === "flex"){
+        character.style.display = "none"
+    }
+    characters.style.display = "flex"
+    display.src = "/assets/icone_character.png"
+    details.innerHTML = "..."
+    playerOrdem.src = thiagoFritz.imgProfile2
+    playerOrdem1.src= elizabethWebber.imgProfile2
+    playerOrdem2.src= cristopherCohen.imgProfile
+    playerOrdem3.src= jouiJouki.imgProfile
+    playerOrdem4.style.display = "block"  
+    playerOrdem4.src = Cezar.imgProfile
+    playerOrdem5.style.display = "block"
+    playerOrdem5.src = Arthur.imgProfile
+    
+}
+
+
 function troca(){
-    if(teste == 1 ){
+    if(temporada == 1 ){
         character.style.display = "flex"
         display.src = thiagoFritz.imgProfile
     details.innerHTML = thiagoFritz.description
     Name.innerHTML = thiagoFritz.Name
     age.innerHTML = thiagoFritz.idade
 
-    }else if(teste == 2){
+    }else if(temporada == 2){
         character.style.display = "flex"
         display.src = thiagoFritz.imgProfile2
         details.innerHTML = thiagoFritz.description
@@ -100,14 +141,14 @@ function troca(){
     
 }
 function troca1(){
-if(teste == 1){
+if(temporada == 1){
     character.style.display = "flex"
      display.src = danielHartmann.imgProfile
     details.innerHTML = danielHartmann.description
     Name.innerHTML = danielHartmann.Name
     age.innerHTML = danielHartmann.idade
 
-}else if(teste == 2){
+}else if(temporada == 2){
     character.style.display = "flex"
     display.src = elizabethWebber.imgProfile2
     details.innerHTML = elizabethWebber.description
@@ -117,13 +158,13 @@ if(teste == 1){
 
 }
 function troca2(){
-if(teste == 1){
+if(temporada == 1){
     character.style.display = "flex"
     display.src = alexSanderKothe.imgProfile
     details.innerHTML = alexSanderKothe.description
     Name.innerHTML = alexSanderKothe.name
     age.innerHTML = alexSanderKothe.idade
-}else if(teste == 2){
+}else if(temporada == 2){
     character.style.display = "flex"
     display.src = cristopherCohen.imgProfile
     details.innerHTML = cristopherCohen.description
@@ -132,13 +173,13 @@ if(teste == 1){
 }
 }
 function troca3(){
-if(teste == 1){
+if(temporada == 1){
     character.style.display = "flex"
     display.src = elizabethWebber.imgProfile
     details.innerHTML = elizabethWebber.description
     Name.innerHTML = elizabethWebber.Name
     age.innerHTML = elizabethWebber.idade
-}else if (teste == 2){
+}else if (temporada == 2){
     character.style.display = "flex"
     display.src = jouiJouki.imgProfile
     details.innerHTML = jouiJouki.description
@@ -163,41 +204,3 @@ function troca5(){
 }
 
 
-function temporada1 () {
-    teste = 1;
-    if(character.style.display === "flex"){
-        character.style.display = "none"
-    }
-    characters.style.display = "flex"
-    display.src = "/assets/icone_character.png"
-    details.innerHTML = "..."
-    playerOrdem.src = thiagoFritz.imgProfile
-    playerOrdem1.src= danielHartmann.imgProfile
-    playerOrdem2.src= alexSanderKothe.imgProfile
-    playerOrdem3.src= elizabethWebber.imgProfile
-    playerOrdem4.style.display = "none"
-   playerOrdem5.style.display = "none"
-  
-
-        
-
-}
-
-function temporada2 () {
-    teste = 2
-    if(character.style.display === "flex"){
-        character.style.display = "none"
-    }
-    characters.style.display = "flex"
-    display.src = "/assets/icone_character.png"
-    details.innerHTML = "..."
-    playerOrdem.src = thiagoFritz.imgProfile2
-    playerOrdem1.src= elizabethWebber.imgProfile2
-    playerOrdem2.src= cristopherCohen.imgProfile
-    playerOrdem3.src= jouiJouki.imgProfile
-    playerOrdem4.style.display = "block"  
-    playerOrdem4.src = Cezar.imgProfile
-    playerOrdem5.style.display = "block"
-    playerOrdem5.src = Arthur.imgProfile
-    
-}
